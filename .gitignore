@@ -1,0 +1,32 @@
+/Backend/node_modules
+/Frontend/node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Developer note: near.gitignore will be renamed to .gitignore upon project creation
+# dependencies
+/Frontend/.pnp
+/Frontend/.pnp.js
+
+# build
+/Frontend/out
+/Frontend/dist
+
+# keys
+/Frontend/neardev
+
+# testing
+/Frontend/coverage
+
+# production
+/Frontend/build
+
+# misc
+/Frontend/.DS_Store
+/Frontend/.env.local
+/Frontend/.env.development.local
+/Frontend/.env.test.local
+/Frontend/.env.production.local
+/Frontend/.cache
+
+/Frontend/npm-debug.log*
+/Frontend/yarn-debug.log*
+/Frontend/yarn-error.log*
